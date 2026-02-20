@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <div id="NAME" style="text-align:center;">
+    <h1><i class="fa-regular fa-sun"></i> WELCOME TO LOGIN PAGE</h1>
+    <hr>
+</div>
+
+<div id="menu">
+    <a href="index.html"><i class="fa-solid fa-house"></i> HOME</a>
+    <a href="#aboutus"><i class="fa-regular fa-address-card"></i> About Us</a>
+    <a href="Contact.html"><i class="fa-solid fa-phone"></i> CONTACT</a>
+</div>
+<div class="main">
+
+    <div class="login">
+        <label >Username </label> <br>
+        <input type="text" id="username" placeholder="Username"> <br> <br>
+        <label >Password </label> <br>
+        <input type="password" id="password" placeholder="Password"> <br> <br>
+        <button type="submit" id="btn">Login</button> 
+    </div>
+
+</div>
+
+<div id="aboutus">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur qui ducimus corrupti. Dignissimos ullam dicta deleniti ad minus nisi numquam reiciendis officiis saepe, quidem necessitatibus. Ex optio consequatur eos?</p>
+</div>
+    
+</body>
+
+<script src="js/script.js">
+        let username = $('#username').val();
+    let pass = $('#password').val();
+
+    $('#submit').click(function(){
+
+        if(username.val()==''&&pass.val()==''){
+            alert('Please input fields');
+        }
+
+    });
+
+</script>
+</html>

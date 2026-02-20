@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.card-info {
+    border: 2px solid black;
+    position: relative;
+    right: -60px;
+    bottom: -50px;
+    padding: 30px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 20px;
+}
+
+#aboutus{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.login {
+    position: relative;
+    right: -26%;
+    bottom: -20%;
+    font-size: 20px;
+    
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6%;
+}
+
+
+.login button {
+    background-color: gray;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.login button:hover {
+    background-color: #0d47a1;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    padding-right: 180px;
+    border-radius: 30px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#btn {
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    min-height: 100vh;
+    background: url(photos/Aquarium-Background-Free.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#NAME {
+    padding: 20px;
+}
+
+#NAME h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 60%;
+    margin: 10px auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#menu {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    text-align: center;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    color: #ffd700;
+}
+
+
+
+
+.main {
+    height: 100vh;
+
+}
+
+.card-info {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 30px;
+    box-shadow: #1876f294 5px 1px 1px 1px;
+}
+
+.card-info h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.card-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.card-info a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+}
+
+.card-info a:hover {
+    color: #0d47a1;
+}
+
+
+.button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #2a5298;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #1e3c72;
+    transform: scale(1.05);
+}
+
+#menu2 {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+}
+
+#menu2 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#menu2 a:hover {
+    color: #ffd700;
+}
+
+
+
+
+.card,
+.card-info {
+    width: 90%;
+}
